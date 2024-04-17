@@ -1,0 +1,13 @@
+.restaurants{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.restaurant-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+

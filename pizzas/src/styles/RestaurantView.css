@@ -1,0 +1,26 @@
+.restaurantview {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    color: white;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+
+.pizzamenu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+.pizzacard{
+    padding: auto;
+}
+
+.pizzacard img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
